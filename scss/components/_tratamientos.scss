@@ -1,0 +1,64 @@
+@import "../base/variables";
+
+
+
+
+
+/*inicio Tratamientos todo anidado dentro de MAIN*/
+main{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    .t-tratamientos{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .acupuntura{
+        .img-trat1{
+            width: 15rem;
+            box-shadow: $sombra;
+            border-radius: $borde-r;
+            border: $borde-c;
+            float: right;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+        }
+        .t-acup{
+            text-align: center;
+           font-size: 2rem;
+        }
+        .art{
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+    }
+    .ventosas{
+        .img-trat2{
+            width: 15rem;
+            box-shadow: $sombra;
+            border-radius: $borde-r;
+            border: $borde-c;
+            float: left;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
+        .t-vent{
+            font-size: 2rem;
+        }
+    }
+    .moxa{
+        .img-trat3{
+            width: 15rem;
+            box-shadow: $sombra;
+            border-radius: $borde-r;
+            border: $borde-c;
+            float: right;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+        }
+        .t-moxa{
+              font-size: 2rem;
+           }
+    }
+}
+/*Fin Tratamientos todo anidado dentro de MAIN*/

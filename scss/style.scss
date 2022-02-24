@@ -1,0 +1,39 @@
+@import "components/header";
+@import "components/footer";
+@import "components/fotos";
+@import "components/contacto";
+@import "components/home";
+@import "components/sobre-nosotros";
+@import "components/tratamientos";
+
+*{
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 1rem;
+   color: #000000 !important;
+}
+
+body{
+    background-image: url(../medios/fondo09.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+   @media screen and (max-width: 480px){
+       .card{
+           display: flex;
+           flex-direction: column;
+       }
+   }
+
+   
+
+
+
+
+    
+
+
+
+    
+
