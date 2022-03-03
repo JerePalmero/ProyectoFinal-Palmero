@@ -26,6 +26,7 @@
   width: 300px;
 }
 
+/* Inicio de Footer*/
 .copy {
   display: flex;
   justify-content: center;
@@ -44,6 +45,7 @@
   background-color: transparent !important;
 }
 
+/* Fin de Footer*/
 /*Inicio de fotos.html*/
 .carousel-inner img {
   width: 100%;

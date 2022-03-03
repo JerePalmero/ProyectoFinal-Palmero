@@ -1,0 +1,6 @@
+@mixin condicion ($colores) { 
+    @if $colores == black{
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+}

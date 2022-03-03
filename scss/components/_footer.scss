@@ -1,9 +1,10 @@
+@import "../base/mixins";
+/* Inicio de Footer*/
 .copy{
     display: flex;
     justify-content: center;
     border-top: solid 0.5px;color: black;
-    margin-top: 1rem;
-    padding-top: 1rem;
+   @include condicion (black)
 }
 .w,.f,.i{
     width: 3rem;
@@ -13,3 +14,4 @@
 .foot-social{
     background-color: transparent !important;
 }
+/* Fin de Footer*/
